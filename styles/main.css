@@ -52,7 +52,7 @@ body {
 }
 
 .hero-txt {
-    color: #FCFCFC;
+    color: rgba(255, 255, 255, 0.8);
     text-align: center;
     font-weight: 300;
     font-size: 21px;
@@ -68,11 +68,15 @@ body {
     display: block;
     padding: 0.6rem;
     width: 100%;
-    color: #FCFCFC;
     margin: 1rem 0;
-    border: 1px solid #ffffff;
+    color: #ffffff;
+    border: 1px solid rgba(255, 255, 255, 0.5);
     border-radius: 0.5rem;
     background: transparent;
+}
+
+::placeholder {
+        color: rgba(255, 255, 255, 0.7);
 }
 
 .hero-form>#email,
@@ -83,11 +87,11 @@ body {
 }
 
 .hero-form>#name {
-    background-image: url(./assets/vvv.png);
+    background-image: url(../assets/name.png);
 }
 
 .hero-form>#email {
-    background-image: url(./assets/Icon\ \(1\).png);
+    background-image: url(../assets/email.png);
 }
 
 .hero-form>#access-btn {
