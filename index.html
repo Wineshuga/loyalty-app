@@ -6,10 +6,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Loyalty App</title>
-    <link rel="stylesheet" href="./styles/main.css">
+    <link rel="stylesheet" href="./styles/style.css">
 </head>
 
 <body>
+    <div class="modal">
+        <div class="modal-card">
+            <img src="./assets/mark.svg" class="img" alt="">
+            <h1>Congratulations</h1>
+            <p>Great move! You're one step closer to getting your hands on the product. Please check your mail
+                for more
+                information.</p>
+        </div>
+    </div>
     <header class="header">
         <img src="./assets/logo.svg" class="logo" alt="logo">
         <div class="call-btn">
@@ -23,11 +32,11 @@
                 Loyalbaze. Join
                 the waiting
                 list now to be among the first to experience the future of customer loyalty.</p>
-            <form class="hero-form">
+            <div class="hero-form">
                 <input type="text" name="name" id="name" placeholder="Tell us your name">
                 <input type="email" name="email" id="email" placeholder="Enter your email address">
-                <input type="button" id="access-btn" value="Get early access">
-            </form>
+                <button id="access-btn">Get early access</button>
+            </div>
             <div class="hero-joined">
                 <p class="txt-blue">G</p>
                 <p class="txt-purple">O</p>
@@ -39,7 +48,7 @@
         <section class="book-container">
             <article class="pg-text">
                 <h1>What we do</h1>
-                <div class="pg-img"><img src="../assets/Line.svg"  alt=""></div>
+                <div class="pg-img"><img src="../assets/Line.svg" alt=""></div>
                 <p class="pg-paragraph">Loyalbaze, empowers businesses to offer digital, mobile-first loyalty programs
                     to their customers.
                     With
@@ -83,6 +92,8 @@
             <p>+234 903 618 9485</p>
         </div>
     </footer>
+
+    <script src="./script.js"></script>
 </body>
 
 </html>
