@@ -1,0 +1,245 @@
+.icon {
+    position: absolute;
+}
+
+.circle1 {
+    left: 2rem;
+    top: 4rem;
+    width: 11rem;
+}
+
+.circle2 {
+    width: 14rem;
+    right: 0;
+    top: 9rem;
+}
+
+.circle3 {
+    width: 5rem;
+    right: 15rem;
+    top: -1rem;
+}
+
+.circle4 {
+    width: 5rem;
+    left: 5rem;
+    top: 52rem;
+}
+
+.arrow {
+    width: 4rem;
+    top: 21rem;
+    right: 21rem;
+}
+
+.star1, .star2, .star7 {
+    width: 1.5rem;
+}
+
+.star1 {
+    left: 23.5rem;
+    top: 2rem;
+}
+
+.star2 {
+    right: 10rem;
+    top: 7rem;
+}
+
+.star3 {
+    right: 5rem;
+    top: 33rem;
+}
+
+.star4 {
+    left: 4rem;
+    top: 39rem;
+}
+
+.star5 {
+    bottom: -5rem;
+    right: 6rem;
+}
+
+.star6 {
+    right: 42rem;
+    bottom: 11rem;
+}
+
+.star7 {
+    top: 64rem;
+    left: 19rem;
+}
+
+.bulb1 {
+    top: 48rem;
+    right: 9rem;
+}
+
+.bulb2 {
+    right: 45rem;
+    top: 50rem;
+}
+
+@media screen and (max-width:1210px) {
+    .arrow {
+        right: 15rem;
+    }
+
+    .circle1 {
+        width: 8rem;
+        top: 7rem;
+        left: 1rem;
+    }
+
+    .circle2 {
+        width: 10rem;
+        top: 18rem;
+    }
+
+    .circle3, .circle4 {
+        width: 4rem;
+    }
+
+    .star2 {
+        top: 10rem;
+    }
+
+    .star3 {
+        top: 36rem;
+    }
+
+    .star6 {
+        left: 27rem;
+        bottom: 8rem;
+    }
+}
+
+@media screen and (max-width:1000px) {
+    .arrow {
+        top:17rem;
+        right: 12rem;
+    }
+
+    .star2 {
+        top: 8rem;
+    }
+
+    .star5 {
+        right: 21rem;
+    }
+
+    .star6 {
+        left: 50rem;
+        bottom: 23rem;
+    }
+    
+    .star7 {
+        left: 10rem;
+        top: 80rem;
+    }
+}
+
+@media screen and (max-width: 910px) {
+    .arrow {
+        display: none;
+    }
+
+    .circle4 {
+        top: 60rem;
+    }
+
+    .star6 {
+        left: 45rem;
+    }
+}
+
+@media screen and (max-width: 840px) {
+    .circle1 {
+        width: 6rem;
+        top: 4rem;
+    }
+
+    .bulb2 {
+        display: none;
+    }
+
+    .star6 {
+        left: 40rem;
+    }
+}
+
+@media screen and (max-width: 690px) {
+    .star1, .star7, .star6, .circle4 {
+        display: none;
+    }
+
+    .bulb1 {
+        top: 33rem;
+    }
+}
+
+@media screen and (max-width: 580px) {
+    .circle1 {
+        width: 5rem;
+        top: 16rem;
+    }
+
+    .circle2 {
+        width: 6rem;
+        top: 15rem;
+    }
+}
+
+@media screen and (max-width: 479px) {
+    .circle1 {
+        display: none;
+    }
+
+    .circle2 {
+        width: 5rem;
+    }
+
+    .circle3 {
+        width: 3rem;
+        right: 3rem;
+        top: 0rem;
+    }
+
+    .star2 {
+        width: 1rem;
+        right: 1rem;
+        top: 6rem;
+    }
+
+    .star3, .star4, .star5 {
+        width: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .circle2 {
+        display: none;
+    }
+
+    .bulb1 {
+        top: 27rem;
+        right: 2rem;
+    }
+
+    .star3 {
+        top: 30rem;
+    }
+
+    .star4 {
+        top: 35rem;
+        left: 1rem;
+    }
+}
+
+@media screen and (max-width: 340px) {
+    .bulb1 {
+        width: 1rem;
+        top: 32rem;
+    }
+}
