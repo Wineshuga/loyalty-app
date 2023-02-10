@@ -303,6 +303,19 @@ body {
 }
 
 @media screen and (max-width:830px) {
+    .modal-card {
+        width: 20rem;
+        padding: 2rem;
+    }
+
+    .modal-card>h1 {
+        font-size: 1.5rem;
+    }
+
+    .modal-card>p {
+        font-size: 0.8rem;
+    }
+
     .footer {
         font-size: 0.7rem;
     }
@@ -320,6 +333,10 @@ body {
     .call-btn {
         font-size: 0.6rem;
         width: 7rem;
+    }
+
+    .modal-card>img {
+        width: 5rem;
     }
 
     .hero-section {
@@ -358,10 +375,18 @@ body {
 }
 
 @media screen and (max-width:425px) {
-.header {
-    padding: 1rem 1rem 2rem 1rem;
-}
+    .header {
+        padding: 1rem 1rem 2rem 1rem;
+    }
 
+    .modal-card {
+        width: 14rem;
+        padding: 2rem 1.5rem;
+    }
+
+    .modal-card>img {
+        width: 3rem;
+    }
 
     .logo,
     .call-btn {
