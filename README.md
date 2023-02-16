@@ -6,4 +6,4 @@ With our AI Powered platform, you can easily create and manage custom loyalty an
 and gain valuable insights to improve your business.
 
 ### P.S
-See this [similar project](https://github.com/Wineshuga/metabnb-site/) made with React: http://metabnb-site-woad.vercel.app/
+See this [similar project](https://github.com/Wineshuga/metabnb-site/)(repo) made with React: http://metabnb-site-woad.vercel.app/
