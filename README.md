@@ -5,5 +5,8 @@ This Loyalbaze app, empowers businesses to offer digital, mobile-first loyalty p
 With our AI Powered platform, you can easily create and manage custom loyalty and rewards programs, track customer engagement, 
 and gain valuable insights to improve your business.
 
+### HOSTED LINK
+https://wineshuga.github.io/loyalty-app/
+
 ### P.S
 See this [similar project](https://github.com/Wineshuga/metabnb-site/)(repo) made with React: http://metabnb-site-woad.vercel.app/
